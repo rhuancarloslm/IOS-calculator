@@ -4,41 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IOS Calculator</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <section>0</section>
-      <table>
-        <tr>
-          <td><button>AC</button></td>
-          <td><button>+/-</button></td>
-          <td><button>%</button></td>
-          <td><button>÷</button></td>
-        </tr>
-        <tr>
-          <td><button>7</button></td>
-          <td><button>8</button></td>
-          <td><button>9</button></td>
-          <td><button>x</button></td>
-        </tr>
-        <tr>
-          <td><button>4</button></td>
-          <td><button>5</button></td>
-          <td><button>6</button></td>
-          <td><button>-</button></td>
-        </tr>
-        <tr>
-          <td><button>1</button></td>
-          <td><button>2</button></td>
-          <td><button>3</button></td>
-          <td><button>+</button></td>
-        </tr>
-        <tr>
-          <td><button>0</button></td>
-          <td><button>.</button></td>
-          <td><button>=</button></td>
-        </tr>
-      </table>
+      <div class="container">
+        <section class="display"><p id="result">0</p></section>
+        <table>
+          <tr>
+            <td><button id="ac" class="btn btn_function">AC</button></td>
+            <td><button id="+/-" class="btn btn_function">+/-</button></td>
+            <td><button id="%" class="btn btn_function">%</button></td>
+            <td><button id="÷" class="btn btn_operator">÷</button></td>
+          </tr>
+          <tr>
+            <td><button id="7" class="btn btn_number">7</button></td>
+            <td><button id="8" class="btn btn_number">8</button></td>
+            <td><button id="9" class="btn btn_number">9</button></td>
+            <td><button id="x" class="btn btn_operator">x</button></td>
+          </tr>
+          <tr>
+            <td><button id="4" class="btn btn_number">4</button></td>
+            <td><button id="5" class="btn btn_number">5</button></td>
+            <td><button id="6" class="btn btn_number">6</button></td>
+            <td><button id="-" class="btn btn_operator">-</button></td>
+          </tr>
+          <tr>
+            <td><button id="1" class="btn btn_number">1</button></td>
+            <td><button id="2" class="btn btn_number">2</button></td>
+            <td><button id="3" class="btn btn_number">3</button></td>
+            <td><button id="+" class="btn btn_operator">+</button></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button id="0" class="btn btn_number colspan">0</button>
+            </td>
+            <td><button id="." class="btn btn_number">.</button></td>
+            <td><button id="=" class="btn btn_operator">=</button></td>
+          </tr>
+        </table>
+      </div>
     </main>
   </body>
 </html>

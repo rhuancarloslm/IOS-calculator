@@ -1,1 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+}
 
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#result {
+  font-size: 70px;
+  margin-left: 268px;
+  margin-bottom: 5px;
+}
+.btn {
+  border: none;
+  border-radius: 35px;
+  font-size: 35px;
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+.btn_number {
+  background-color: #707070;
+}
+
+.btn_operator {
+  background-color: #ff9f0a;
+}
+
+.btn_function {
+  background-color: #c0c0c0;
+  color: black;
+}
+
+.colspan {
+  width: 152px;
+  border-radius: 35px;
+  padding-right: 80px;
+}
